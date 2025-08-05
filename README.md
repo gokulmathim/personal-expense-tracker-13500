@@ -1,1 +1,3 @@
-# personal-expense-tracker-13500
+# Project Repository
+
+This is the initial README file for the project.
