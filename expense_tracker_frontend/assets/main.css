@@ -1,0 +1,48 @@
+/* Theme Colors */
+:root {
+  --primary: #1976D2;
+  --secondary: #424242;
+  --accent: #FFC107;
+  --bg: #F9FAFB;
+  --text-base: #212121;
+  --text-muted: #636363;
+  --sidebar-width: 220px;
+}
+
+body {
+  font-family: 'Inter', 'Montserrat', 'Roboto', sans-serif;
+  color: var(--text-base);
+  background: var(--bg);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  margin-bottom: 0.25em;
+  color: var(--text-base);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #eee;
+  border-radius: 4px;
+}
